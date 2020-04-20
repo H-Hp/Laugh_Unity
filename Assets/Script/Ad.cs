@@ -1,0 +1,22 @@
+﻿using UnityEngine;
+using System.Collections;
+using GoogleMobileAds.Api;
+public class Ad : MonoBehaviour {
+
+    void Start (){
+        RequestBanner();
+    }
+
+    private void RequestBanner() {
+        // 広告ユニット ID を記述します
+        //string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+        string adUnitId = "ca-app-pub-9897592333166762/6366832937";
+        // Create a 320x50 banner at the top of the screen.
+        BannerView bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
+        //BannerView bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
+        // Create an empty ad request.
+        AdRequest request = new AdRequest.Builder().Build();
+        //Load the banner with the request.
+        bannerView.LoadAd(request);
+    }
+}

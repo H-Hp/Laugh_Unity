@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laugh(Web).CSharp", "Laugh(Web).CSharp.csproj", "{9B624497-D849-72AE-58E2-77E2E37DB019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laugh(Web).CSharp.Editor", "Laugh(Web).CSharp.Editor.csproj", "{5D25BD3A-E9DF-89EC-BEE2-1034B9E63827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B624497-D849-72AE-58E2-77E2E37DB019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B624497-D849-72AE-58E2-77E2E37DB019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B624497-D849-72AE-58E2-77E2E37DB019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B624497-D849-72AE-58E2-77E2E37DB019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D25BD3A-E9DF-89EC-BEE2-1034B9E63827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D25BD3A-E9DF-89EC-BEE2-1034B9E63827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D25BD3A-E9DF-89EC-BEE2-1034B9E63827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D25BD3A-E9DF-89EC-BEE2-1034B9E63827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
